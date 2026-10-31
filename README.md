@@ -60,3 +60,11 @@ Description of  ‘Passenger’ Table:
 ·       total_spent: Total amount spent by the passenger on rides.
 
 ·       rating: Average rating given by drivers to the passenger.
+
+Tools Used: 
+
+MySQL
+
+Author : falguni Mehta
+
+this project is part of my portfolio ,showing the SQL skills essential for data analyst roles.
