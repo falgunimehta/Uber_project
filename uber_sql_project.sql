@@ -6,6 +6,8 @@ select * from driver;
 select * from passenger;
 select * from ride;
 
+#Basic level
+    
 #Q1: What are & how many unique pickup locations are there in the dataset?
 
 select distinct pickup_location 
@@ -136,7 +138,9 @@ select *
 from ride
 where pickup_location = dropoff_location;
 
+#moderate level
 
+    
 #q1: list the passengers who have taken rides from at least 300 different pickup locations.
 
 select passenger_id, count(distinct pickup_location) as distinct_locations
@@ -309,7 +313,9 @@ select avg(fare_amount) from ride where passenger_id in
 select ride_id, pickup_location, min(ride_duration) as min_duration 
 from ride r group by pickup_location,ride_id;
 
+#advanced level
 
+    
 #q1: list the drivers who have driven rides in all pickup locations.
 
 select driver_id
