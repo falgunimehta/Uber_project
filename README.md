@@ -6,6 +6,10 @@ Problem Statement:
 
 The objective of this project is to utilize SQL queries and analysis to extract meaningful insights and answer various questions related to the ride-hailing business. We will explore trends, patterns, and relationships within the dataset to provide recommendations and solutions that can enhance the operational efficiency and customer experience of the ride-hailing service.
 
+In our analysis of Uber's Ride-Hailing Operations, we delve into a dataset encompassing three core tables: 'Rides,' 'Drivers,' and 'Passengers'. The 'Rides' table encompasses detailed ride-related information such as ride specifics, driver and passenger identifiers,
+
+pickup and dropoff locations, ride distance, duration, fare amount, and payment methods. The 'Drivers' table encapsulates essential driver attributes including driver ID, name, join date, rating, ride count, and earnings. Lastly, the 'Passengers' table encompasses passenger attributes, such as passenger ID, name, signup date, total rides taken, total spending, and passenger ratings. 
+
 Description of  ‘Ride’ Table:
 
 ·       ride_id: Unique identifier for each ride.
